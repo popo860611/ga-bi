@@ -15,7 +15,7 @@
 - 只接受原始 V1.9.0.3：SHA-256 `D7263F4CBDE3196A81CF709411909DF59343DF8DA28EF38977A0A7909939DD8D`。
 - `MStarBotOfflineAuth.exe` 為未加殼單檔版，不需要 `.ompayload`。
 - 未加殼版不需要 `MStarBotOfflineAuth.key`；若目標已有 KEY，安裝器會保留。
-- 離線啟動時會保留其他設定並自動記住登入金鑰 `LOCAL-LAB-001`，新電腦不必第一次手動輸入。
+- 離線啟動時會保留其他設定並自動記住登入金鑰 `LOCAL-LAB-001`，新電腦不必第一次手動輸入。`r`n- 加殼安裝若曾漏裝服務側檔，啟動腳本會從 `payload\_offline` 自動同步缺少的 `.ompayload` 與 KEY，不需先手動開啟服務。
 
 ## 安裝
 
